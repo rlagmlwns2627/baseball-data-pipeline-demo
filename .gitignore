@@ -12,3 +12,7 @@ __pycache__/
 *.pyc
 *.log
 .DS_Store
+
+# dbt 자동 생성 파일
+dbt/target/
+dbt/.user.yml

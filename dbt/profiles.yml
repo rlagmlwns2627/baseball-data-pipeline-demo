@@ -1,0 +1,13 @@
+practice:
+  target: dev
+  outputs:
+    dev:
+      type: mysql
+      # 연결할 DB 종류
+      server: my-mysql
+      # docker-compose의 mysql 컨테이너 이름
+      port: 3306
+      database: docker_test_db
+      username: root
+      password: "1234"
+      schema: docker_test_db
